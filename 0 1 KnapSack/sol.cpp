@@ -15,6 +15,7 @@ int solve(vector<int>& weight,vector<int>& value,int index,int capacity,
 		dp[index][capacity]=max(include,exclude);
 	return dp[index][capacity];
 }
+
 int knapsack(vector<int> weight, vector<int> value, int n, int maxWeight) 
 {
 	// Write your code here
